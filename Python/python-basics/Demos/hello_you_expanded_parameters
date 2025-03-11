@@ -1,0 +1,34 @@
+#your_names = input("what is your names? ")
+
+def line_seperator(fines="==="):
+#def line_seperator(fines):
+    print(fines, fines, fines, sep="")
+    
+
+def recite_poem():
+    print("How about the python poem!")
+    line_seperator("1")
+    #print(your_names)
+   # your_names from def your_name()
+    line_seperator(2)
+    print("This is a poem about the python")
+    #print(your_names)
+    print("python is a programing language")
+    print("it is very useful programming language")
+    print("with python you can write program")
+
+def say_goodbye(goodbye):
+    print(goodbye, "!", "Good Bye", ".", sep="")
+
+def main():
+    #your_names
+    your_name = input("what is your name? ")
+    print("Hello ", your_name, "!", sep= "")
+    line_seperator("3")
+    recite_poem()
+    print(your_name)
+    line_seperator("4")
+    say_goodbye(your_name)
+    line_seperator("fines")
+main()
+line_seperator()
